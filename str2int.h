@@ -2,7 +2,8 @@
 /*                                                                                                                               
  * Convert a string to an integer, returning that integer.                                                                       
  * Returns true if successful, or false if any error.                                                                            
- * It is an error if there is any additional character beyond the integer.                                                        * Assumes number is a valid pointer.                                                                                            
+ * It is an error if there is any additional character beyond the integer.                                                        
+ * Assumes number is a valid pointer.                                                                                            
  */
 
 #ifndef __STR2INT_H__
@@ -16,4 +17,4 @@
 // For example, 1234x will be invalid, as would 12.34 or just x. 
 extern bool str2int(const char string[], int * number);
 
-#endif //  __READLINE_H__
+#endif //  __STR2INT_H__
